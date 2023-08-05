@@ -24,14 +24,14 @@ html {
 }
 
 body {
-   background: linear-gradient(to right, #f0f0f5 25%, #d1d1e0 50%, #b3b3cb 100%);
+   <!--background: linear-gradient(to right, #f0f0f5 25%, #d1d1e0 50%, #b3b3cb 100%);-->
 
 }
 
 .header {
-  background: linear-gradient(to right, #8a00e6 25%, #9933ff 50%, #5c0099 100%);
-  color: #f2e6ff;
-  text-shadow: 2px 2px 4px #000000;
+  <!--background: linear-gradient(to right, #8a00e6 25%, #9933ff 50%, #5c0099 100%);-->
+  color: #9900cc;
+  text-shadow: 1px 1px 1px #000000;
   padding: 15px;
 }
 
@@ -84,14 +84,20 @@ body {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-table, th, td{
-text-align: center;
-color: #9900cc;
+table {
+ background-color: linear-gradient(to right, #8a00e6 25%, #9933ff 50%, #5c0099 100%);
+  font-family: arial, sans-serif;
+ color: white;
+  border-collapse: collapse;
+  width: 100% ;
 }
-
-tr:nth-child(even) {
-background-color: #E6E6FA;
-color: #f2e6ff;
+td {
+  border: 1px solid white;
+  background-color: linear-gradient(to right, #8a00e6 25%, #9933ff 50%, #5c0099 100%);
+  color: white;
+  text-align: center;
+  padding: 8px;
+  width:auto;
 }
 
 @media only screen and (max-width: 768px) {
@@ -139,13 +145,38 @@ th {
  background-color : #4B0082;
  color : white;
 }
+
+.button {
+  background-color: #9900cc;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+  
+  }
+
 </style>
-<title>Responsive Tables</title>
+<title>Java Python C# Docker Kubernetes AWS </title>
 </head>
 <body>
   <div class="header">
-    <h1>Java Odyssey</h1>
-  </div>
+    <h1 style="color: #9900cc;">Java for absolute beginners</h1>
+   <ul style="list-style-type: none; margin: 0; padding: 0; ">
+  <li style="display: inline;"><a href="https://tundetubo.github.io"><img src="home.png" alt="home-page" style="width:40px; height:40px;" /></a></li>
+ <li style="display: inline;"><a href="#"><img src="about-us.png" alt="about-us" style="width:40px; height:40px;" /></a></li>
+  <li style="display: inline;"><a href="mailto:tunde.tubo@gmail.com"><img src="email.png" alt="contact-us" style="width:40px; height:40px;" /></a></li>
+<li style="display: inline;"><a href="#"><img src="https://i.ibb.co/VQ9nCv3/circle-youtube.png" alt="youtube" style="width:40px; height:40px; border:0; visibility:visible;" ></a></li>
+<li style="display: inline;"><a href="#"><img src="https://i.ibb.co/x8G1NMz/circle-instagram.png" alt="instagram" style="width:40px; height:40px; border:0; visibility: hidden;" ></a></li>
+<li style="display: inline;"><a href="#"><img src="https://i.ibb.co/K5wbWBS/circle-linkedin.png" alt="linkedin" style="width:40px; height:40px; border:0; visibility: hidden;" ></a></li>
+</ul>
+</div>
   <div class="row">
   <div class="col-3 menu">
     <ul>
@@ -159,8 +190,14 @@ th {
   <div class="col-6">
     <h3></h3>
     
+  <a href="#" class="button">Java</a>
+  <a href="#" class="button" >Python</a>
+  <a href="#" class="button">C#</a>
+  <a href="#" class="button">Docker</a>
+  <a href="#" class="button" text-align="left">Kubernetes</a>
+  <a href="#" class="button">AWS</a>
     
-  </div>
+ </div>
       
 </div>
 
